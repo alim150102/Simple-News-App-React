@@ -1,0 +1,36 @@
+
+.Nav nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+  } 
+  
+  .Nav nav ul {
+    background:#37988e;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    width: 97%;
+    /* width: 1314px; */
+  }
+  
+  .Nav nav ul li{
+    float:left;
+  }
+  
+  .Nav nav ul li:hover{
+    background:#d68d9a;
+  }
+  
+  .Nav nav ul li:hover a{
+    color:#000;
+  }
+  
+  .Nav nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+  }
